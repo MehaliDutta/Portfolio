@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehali Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dc74ecef06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div id="contanier">
+        <nav>
+            <img src="logo.png" class="logo" alt="">
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi,I'm <span>Mehali Dutta</span>  <br> From India</h1>
+        </div>
+    </div>
+   </div>
+   <div id="about">
+    <div class="contanier">
+        <div class="row">
+            <div class="aboutcol1"><img src="passportphoto.jpeg" alt=""></div>
+            <div class="aboutcol2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus, incidunt quibusdam porro iure minima reprehenderit. Quo officiis incidunt natus distinctio ullam earum nulla? Quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, iusto.</p>
+                <div class="tab-title">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-link"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tag" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desigining Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Bulding Andrroid Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desigining Web/App</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Bulding Andrroid Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desigining Web</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Bulding Andrroid Apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- service -->
+    <div id="service">
+        <div class="contanier">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio laborum facere provident. Nostrum hic fugiat quam quo obcaecati.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio laborum facere provident. Nostrum hic fugiat quam quo obcaecati.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit distinctio laborum facere provident. Nostrum hic fugiat quam quo obcaecati.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfoilo -->
+     <div id="portfolio">
+        <div class="contanier">
+            <h2 class="subtitle">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium voluptates aliquid obcaecati at quo.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium voluptates aliquid obcaecati at quo.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images//work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laudantium voluptates aliquid obcaecati at quo.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- contact -->
+      <div id="contact">
+        <div class="contanier">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>duttamehali&@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8100417970</p>
+                    <div class="soicalicon">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        
+                    </div>
+                    <a href="resume1_pdf.pdf" download class="btn btn2">Doenload Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form class="" action="">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="ypur message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Mehali</p>
+        </div>
+      </div>
+
+   <script>
+    let tablink=document.getElementsByClassName('tab-link')
+    let tabcontent=document.getElementsByClassName('tab-content')
+    function opentab(tabname){
+        for (const tablinks of tablink) {
+            tablinks.classList.remove('active-link')
+        }
+        for (const tabconteents of tabcontent) {
+            tabconteents.classList.remove('active-tag')
+        }
+        event.currentTarget.classList.add('active-link')
+        let n=document.getElementById(tabname)
+        n.classList.add('active-tag')
+        
+
+    }
+   </script>
+   <script>
+    let sidemenu=document.getElementById('side-menu')
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+   </script>
+</body>
+</html>
